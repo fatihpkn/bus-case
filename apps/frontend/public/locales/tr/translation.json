@@ -1,0 +1,259 @@
+{
+  "checkout": {
+    "contact": {
+      "title": "İletişim Bilgileri"
+    },
+    "description": "Rezervasyonunuz başarıyla alındı. Aşağıda özet bilgileri görebilirsiniz.",
+    "passengers": {
+      "empty": "Yolcu bilgisi bulunamadı.",
+      "seatLabel": "Koltuk",
+      "title": "Yolcu Bilgileri"
+    },
+    "payment": {
+      "acceptTermsLabel": "Satış sözleşmesini ve KVKK metnini okudum, kabul ediyorum.",
+      "cardName": "Kart Üzerindeki İsim",
+      "cardNumber": "Kart Numarası",
+      "cvc": "CVC",
+      "expiry": "Son Kullanma",
+      "pay": "Ödemeyi Tamamla",
+      "title": "Ödeme Bilgileri"
+    },
+    "title": "Rezervasyon Özeti"
+  },
+  "checkout.payment.cardName.placeholder": "Ad Soyad",
+  "checkout.payment.cardNumber.placeholder": "XXXX XXXX XXXX XXXX",
+  "checkout.payment.cvc.placeholder": "XXX",
+  "checkout.payment.expiry.placeholder": "AA/YY",
+  "common": {
+    "back": "Geri",
+    "backToHome": "Ana Sayfaya Dön",
+    "language": "Türkçe"
+  },
+  "confirmation": {
+    "actions": {
+      "download": "Bileti İndir",
+      "newSearch": "Yeni Bilet Ara",
+      "print": "Yazdır"
+    },
+    "booking": {
+      "amountLabel": "Toplam Tutar",
+      "passengersLabel": "Yolcu Sayısı",
+      "pnr": "PNR",
+      "seatCount_one": "{{count}} koltuk",
+      "seatCount_other": "{{count}} koltuk",
+      "statusLabel": "Durum",
+      "title": "Rezervasyon Özeti"
+    },
+    "contact": {
+      "empty": "İletişim bilgisi bulunamadı.",
+      "title": "İletişim Bilgileri"
+    },
+    "passengers": {
+      "empty": "Yolcu bilgisi bulunamadı.",
+      "title": "Yolcular"
+    },
+    "pnrLabel": "PNR Kodunuz",
+    "status": {
+      "cancelled": "İptal Edildi",
+      "confirmed": "Onaylandı",
+      "pending": "Beklemede"
+    },
+    "subtitle": "Bilet bilgileriniz aşağıda yer alıyor. Ayrıca e-posta ve SMS ile de sizinle paylaşacağız.",
+    "title": "Rezervasyonunuz Tamamlandı"
+  },
+  "contactForm": {
+    "email": "E-posta Adresi",
+    "emailNote": "Rezervasyon onayınız bu adrese gönderilecektir.",
+    "emailPlaceholder": "ornek@email.com",
+    "phone": "Telefon Numarası",
+    "phoneNote": "Önemli güncellemeler için kullanılacaktır.",
+    "phonePlaceholder": "+90 555 123 45 67",
+    "privacy": {
+      "note": "Verdiğiniz bilgiler sadece bu rezervasyon için kullanılacak ve güvenli bir şekilde saklanacaktır.",
+      "title": "Gizlilik ve Güvenlik"
+    },
+    "title": "İletişim Bilgileri"
+  },
+  "features": {
+    "popularTrips": {
+      "cta": "Seferleri Görüntüle",
+      "empty": "Henüz sefer bulunmamaktadır.",
+      "imageAlt": "features.popularTrips.imageAlt",
+      "price": {
+        "from": "dan başlayan fiyatlar"
+      },
+      "subtitle": "En çok tercih edilen şehirlerarası seferleri keşfedin",
+      "title": "Popüler Seferler"
+    },
+    "reservation": {
+      "description": "Rezervasyon detayları",
+      "pending": {
+        "description": "Lütfen bekleyin, koltuklarınız ayrılıyor ve detay sayfasına yönlendiriliyorsunuz.",
+        "title": "Rezervasyonunuz oluşturuluyor"
+      },
+      "title": "Rezervasyon"
+    },
+    "search": {
+      "form": {
+        "date": {
+          "placeholder": "Tarih seç"
+        },
+        "description": "Nereden nereye ve hangi tarihte gitmek istediğini seçerek uygun seferleri listeleyebilirsin.",
+        "errors": {
+          "dateInvalid": "Lütfen geçerli bir tarih girin",
+          "fromRequired": "Lütfen nereden gideceğinizi seçin",
+          "locationRequired": "Lütfen nereden gideceğinizi seçin",
+          "sameRoute": "Kalkış ve varış şehirleri aynı olamaz",
+          "toRequired": "Lütfen nereye gideceğinizi seçin"
+        },
+        "from": {
+          "empty": "Uygun kalkış noktası bulunamadı.",
+          "placeholder": "Şehir veya terminal seç"
+        },
+        "notifications": {
+          "minSearch_one": "En az 1 harf yazarak aramaya başlayabilirsiniz.",
+          "minSearch_other": "En az {{count}} harf yazarak aramaya başlayabilirsiniz."
+        },
+        "submit": "Seferleri ara",
+        "title": "Otobüs bileti ara",
+        "to": {
+          "empty": "Uygun varış noktası bulunamadı.",
+          "placeholder": "Şehir veya terminal seç"
+        }
+      },
+      "results": {
+        "actions": {
+          "closeSeats": "Koltuk seçimini kapat",
+          "continue": "Devam Et",
+          "selectSeats": "Koltuk Seç"
+        },
+        "arrival": "Varış",
+        "departure": "Kalkış",
+        "noResults": "Arama kriterlerinize uygun sefer bulunamadı.",
+        "route": "Güzergah",
+        "seats": {
+          "available": "Boş",
+          "door": "Kapı",
+          "maxSeatsDescription": "Daha fazla koltuk seçmek için mevcut seçimlerden bazılarını kaldırın.",
+          "maxSeatsTitle": "Maksimum 4 koltuk seçebilirsiniz.",
+          "selected": "Seçili",
+          "taken": "Dolu"
+        },
+        "summary": {
+          "count": "Adet",
+          "noneSelected": "Henüz koltuk seçmediniz.",
+          "seatLabel": "Koltuk {{number}}",
+          "selectedSeats": "Seçilen Koltuklar",
+          "total": "Toplam",
+          "unitPrice": "Birim Fiyat"
+        },
+        "title": "Uygun seferler"
+      },
+      "sort": {
+        "direction": {
+          "asc": "Artan",
+          "desc": "Azalan",
+          "placeholder": "Yön"
+        },
+        "field": {
+          "departure": "Kalkış Saati",
+          "placeholder": "Alan",
+          "price": "Fiyat"
+        },
+        "label": "Sırala"
+      }
+    }
+  },
+  "passengerForm": {
+    "female": "Kadın",
+    "firstName": "Ad",
+    "firstNamePlaceholder": "örn. Ahmet",
+    "gender": "Cinsiyet",
+    "idNumber": "T.C. Kimlik Numarası",
+    "idNumberPlaceholder": "11111111111",
+    "lastName": "Soyad",
+    "lastNamePlaceholder": "örn. Yılmaz",
+    "male": "Erkek",
+    "note": "* işaretli alanlar zorunludur. Koltuk sayısı kadar yolcu bilgisi girilmelidir.",
+    "passengerNumber": "{{number}}. Yolcu",
+    "selectGender": "Cinsiyet seçin",
+    "title": "Yolcu Bilgileri"
+  },
+  "passengerInfo": {
+    "continue": "Devam Et",
+    "saving": "Kaydediliyor...",
+    "submitError": "Bilgiler kaydedilirken hata oluştu: {{error}}",
+    "subtitle": "Lütfen yolcu bilgilerini doldurun",
+    "title": "Yolcu Bilgileri"
+  },
+  "reservation": {
+    "priceBreakdown": "Fiyat Özeti",
+    "seatClass": "Ekonomi",
+    "seatPosition": "Sıra {{row}}",
+    "seatPrice_one": "{{count}} koltuk × ₺{{price}}",
+    "seatPrice_other": "{{count}} koltuk × ₺{{price}}",
+    "seatSelection": "Seçili Koltuklar",
+    "serviceFee": "Hizmet Bedeli",
+    "status": "Durum",
+    "summary": "Rezervasyon Özeti",
+    "total": "Toplam",
+    "totalAmount": "Toplam Tutar",
+    "totalSeats_one": "{{count}} koltuk seçildi",
+    "totalSeats_other": "{{count}} koltuk seçildi",
+    "tripSummary": "Sefer Bilgileri"
+  },
+  "reservation.tripSummary.empty": "Sefer bilgisi bulunamadı",
+  "validation": {
+    "contact": {
+      "email": {
+        "invalid": "Lütfen geçerli bir e-posta adresi girin."
+      },
+      "phone": {
+        "invalid": "Lütfen geçerli bir telefon numarası girin.",
+        "minLength": "Telefon numarası çok kısa."
+      }
+    },
+    "passenger": {
+      "firstName": {
+        "max": "Ad en fazla 50 karakter olabilir.",
+        "min": "Ad en az 2 karakter olmalıdır."
+      },
+      "gender": {
+        "required": "Lütfen cinsiyet seçin."
+      },
+      "idNumber": {
+        "invalid": "Lütfen geçerli bir T.C. kimlik numarası girin."
+      },
+      "lastName": {
+        "max": "Soyad en fazla 50 karakter olabilir.",
+        "min": "Soyad en az 2 karakter olmalıdır."
+      }
+    },
+    "passengerInfo": {
+      "passengers": {
+        "max": "En fazla 5 yolcu girebilirsiniz.",
+        "min": "En az bir yolcu girmelisiniz."
+      }
+    },
+    "payment": {
+      "acceptTerms": {
+        "required": "Şartları kabul etmelisiniz."
+      },
+      "cardName": {
+        "min": "Kart üzerindeki isim çok kısa."
+      },
+      "cardNumber": {
+        "invalid": "Lütfen geçerli bir kart numarası girin.",
+        "minLength": "Kart numarası çok kısa."
+      },
+      "cvc": {
+        "invalid": "Lütfen geçerli bir CVC girin.",
+        "maxLength": "CVC çok uzun.",
+        "minLength": "CVC çok kısa."
+      },
+      "expiry": {
+        "invalid": "Lütfen geçerli bir son kullanma tarihi girin."
+      }
+    }
+  }
+}

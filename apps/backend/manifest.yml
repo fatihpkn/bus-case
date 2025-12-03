@@ -1,0 +1,149 @@
+name: Otobüs Rezervasyon App
+
+entities:
+  Agency:
+    seedCount: 0
+    properties:
+      - name
+      - slug
+      - city
+      - district
+    policies:
+      read:
+        - access: public
+
+  Company:
+    seedCount: 0
+    properties:
+      - name
+      - code
+      - color
+    policies:
+      read:
+        - access: public
+
+  Trip:
+    seedCount: 0
+    properties:
+      - { name: departure, type: timestamp }
+      - { name: arrival, type: timestamp }
+      - { name: price, type: money, options: { currency: "TRY" } }
+    belongsTo:
+      - Company
+      - { name: fromAgency, entity: Agency }
+      - { name: toAgency, entity: Agency }
+    policies:
+      read:
+        - access: public
+
+  Seat:
+    seedCount: 0
+    properties:
+      - { name: seatNo, type: number }
+      - { name: row, type: number }
+      - { name: col, type: number }
+      - {
+          name: status,
+          type: choice,
+          options: { values: ["empty", "taken", "reserved"] },
+        }
+    belongsTo:
+      - Trip
+      - SeatSchema
+    policies:
+      read:
+        - access: public
+
+  Passenger:
+    seedCount: 0
+    properties:
+      - firstName
+      - lastName
+      - { name: idNumber, type: string }
+      - { name: gender, type: choice, options: { values: ["male", "female"] } }
+    belongsTo:
+      - { name: contact, entity: Contact }
+      - { name: seat, entity: Seat }
+    policies:
+      read:
+        - access: public
+      create:
+        - access: public
+
+  Contact:
+    seedCount: 0
+    properties:
+      - { name: email, type: email }
+      - phone
+    policies:
+      read:
+        - access: public
+      create:
+        - access: public
+
+  Reservation:
+    seedCount: 0
+    properties:
+      - { name: pnr, type: string }
+      - {
+          name: status,
+          type: choice,
+          options: { values: ["pending", "confirmed", "cancelled"] },
+        }
+      - { name: totalAmount, type: money, options: { currency: "TRY" } }
+    belongsTo:
+      - Trip
+      - { name: contact, entity: Contact }
+    belongsToMany:
+      - { name: passengers, entity: Passenger }
+      - { name: seats, entity: Seat }
+    middlewares:
+      beforeCreate:
+        - handler: reservationCaculateAmount
+    policies:
+      read:
+        - access: public
+      create:
+        - access: public
+      update:
+        - access: public
+
+  SeatSchema:
+    seedCount: 0
+    properties:
+      - { name: layoutType, type: choice, options: { values: ["2+1", "2+2"] } }
+      - { name: layout, type: group, options: { group: SeatLayout } }
+      - { name: unitPrice, type: money, options: { currency: "TRY" } }
+    belongsTo:
+      - Trip
+    policies:
+      read:
+        - access: public
+
+  Payment:
+    seedCount: 0
+    properties:
+      - { name: amount, type: money, options: { currency: "TRY" } }
+      - {
+          name: status,
+          type: choice,
+          options: { values: ["success", "failed"] },
+        }
+      - { name: providerRef, type: string }
+    middlewares:
+      beforeCreate:
+        - handler: paymentCreate
+    belongsTo:
+      - Reservation
+    policies:
+      read:
+        - access: public
+      create:
+        - access: public
+
+groups:
+  SeatLayout:
+    properties:
+      - { name: rows, type: number }
+      - { name: cols, type: number }
+      - { name: cells, type: text }

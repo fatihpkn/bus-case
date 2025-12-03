@@ -1,0 +1,259 @@
+{
+  "checkout": {
+    "contact": {
+      "title": "Contact Information"
+    },
+    "description": "Your reservation has been received successfully. You can review the summary below.",
+    "passengers": {
+      "empty": "Passenger information not found.",
+      "seatLabel": "Seat",
+      "title": "Passenger details"
+    },
+    "payment": {
+      "acceptTermsLabel": "I have read and accept the sales agreement and privacy notice.",
+      "cardName": "Name on card",
+      "cardNumber": "Card Number",
+      "cvc": "CVC",
+      "expiry": "Expiry",
+      "pay": "Pay",
+      "title": "Payment details"
+    },
+    "title": "Reservation summary"
+  },
+  "checkout.payment.cardName.placeholder": "",
+  "checkout.payment.cardNumber.placeholder": "",
+  "checkout.payment.cvc.placeholder": "",
+  "checkout.payment.expiry.placeholder": "",
+  "common": {
+    "back": "Back",
+    "backToHome": "Back to home",
+    "language": "English"
+  },
+  "confirmation": {
+    "actions": {
+      "download": "Download ticket",
+      "newSearch": "Search new trip",
+      "print": "Print"
+    },
+    "booking": {
+      "amountLabel": "Total amount",
+      "passengersLabel": "Number of passengers",
+      "pnr": "PNR",
+      "seatCount_one": "{{count}} seat",
+      "seatCount_other": "{{count}} seats",
+      "statusLabel": "Status",
+      "title": "Booking summary"
+    },
+    "contact": {
+      "empty": "Contact information not found.",
+      "title": "Contact information"
+    },
+    "passengers": {
+      "empty": "Passenger information not found.",
+      "title": "Passengers"
+    },
+    "pnrLabel": "Your PNR code",
+    "status": {
+      "cancelled": "Cancelled",
+      "confirmed": "Confirmed",
+      "pending": "Pending"
+    },
+    "subtitle": "Your ticket details are listed below. We will also share them with you via email and SMS.",
+    "title": "Your reservation is complete"
+  },
+  "contactForm": {
+    "email": "Email address",
+    "emailNote": "Your reservation confirmation will be sent to this address.",
+    "emailPlaceholder": "name@example.com",
+    "phone": "Phone number",
+    "phoneNote": "Will be used for important updates.",
+    "phonePlaceholder": "+90 555 123 45 67",
+    "privacy": {
+      "note": "Your information will only be used for this reservation and will be stored securely.",
+      "title": "Privacy & Security"
+    },
+    "title": "Passenger information"
+  },
+  "features": {
+    "popularTrips": {
+      "cta": "View trips",
+      "empty": "No trips are available yet.",
+      "imageAlt": "City view of {{city}}",
+      "price": {
+        "from": "starting from"
+      },
+      "subtitle": "Discover the most popular intercity bus routes",
+      "title": "Popular Trips"
+    },
+    "reservation": {
+      "description": "Reservation details",
+      "pending": {
+        "description": "Please wait while your seats are reserved and you are being redirected to the details page.",
+        "title": "Your reservation is being created"
+      },
+      "title": "Reservation"
+    },
+    "search": {
+      "form": {
+        "date": {
+          "placeholder": "Pick a date"
+        },
+        "description": "Choose where you want to travel and when to list the most suitable trips.",
+        "errors": {
+          "dateInvalid": "Please enter a valid date",
+          "fromRequired": "Please select your departure location",
+          "locationRequired": "Please select your departure location",
+          "sameRoute": "Please do not select the same city",
+          "toRequired": "Please select your arrival location"
+        },
+        "from": {
+          "empty": "No departure option found.",
+          "placeholder": "Select city or terminal"
+        },
+        "notifications": {
+          "minSearch_one": "Type at least 1 letter to start searching.",
+          "minSearch_other": "Type at least {{count}} letters to start searching."
+        },
+        "submit": "Search trips",
+        "title": "Search bus tickets",
+        "to": {
+          "empty": "No arrival option found.",
+          "placeholder": "Select city or terminal"
+        }
+      },
+      "results": {
+        "actions": {
+          "closeSeats": "Close seat selection",
+          "continue": "Continue",
+          "selectSeats": "Select seats"
+        },
+        "arrival": "Arrival",
+        "departure": "Departure",
+        "noResults": "No trips found matching your search criteria.",
+        "route": "Route",
+        "seats": {
+          "available": "Available",
+          "door": "Door",
+          "maxSeatsDescription": "To select more seats, please remove some of your current selections.",
+          "maxSeatsTitle": "You can select up to 4 seats.",
+          "selected": "Selected",
+          "taken": "Taken"
+        },
+        "summary": {
+          "count": "Count",
+          "noneSelected": "No seats selected yet.",
+          "seatLabel": "Seat {{number}}",
+          "selectedSeats": "Selected Seats",
+          "total": "Total",
+          "unitPrice": "Unit Price"
+        },
+        "title": "Available trips"
+      },
+      "sort": {
+        "direction": {
+          "asc": "Ascending",
+          "desc": "Descending",
+          "placeholder": "Direction"
+        },
+        "field": {
+          "departure": "Departure time",
+          "placeholder": "Field",
+          "price": "Price"
+        },
+        "label": "Sort"
+      }
+    }
+  },
+  "passengerForm": {
+    "female": "Female",
+    "firstName": "First name",
+    "firstNamePlaceholder": "e.g. John",
+    "gender": "Gender",
+    "idNumber": "National ID number",
+    "idNumberPlaceholder": "11111111111",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "e.g. Doe",
+    "male": "Male",
+    "note": "* Fields marked with * are required. You must enter passenger information for each selected seat.",
+    "passengerNumber": "Passenger {{number}}",
+    "selectGender": "Select gender",
+    "title": "Passenger information"
+  },
+  "passengerInfo": {
+    "continue": "Continue",
+    "saving": "Saving...",
+    "submitError": "An error occurred while saving the information: {{error}}",
+    "subtitle": "Please fill in the passenger details",
+    "title": "Passenger information"
+  },
+  "reservation": {
+    "priceBreakdown": "Price breakdown",
+    "seatClass": "Economy",
+    "seatPosition": "Row {{row}}",
+    "seatPrice_one": "{{count}} seat × ₺{{price}}",
+    "seatPrice_other": "{{count}} seats × ₺{{price}}",
+    "seatSelection": "Selected seats",
+    "serviceFee": "Service fee",
+    "status": "Status",
+    "summary": "Reservation summary",
+    "total": "Total",
+    "totalAmount": "Total amount",
+    "totalSeats_one": "{{count}} seat selected",
+    "totalSeats_other": "{{count}} seats selected",
+    "tripSummary": "Trip information"
+  },
+  "reservation.tripSummary.empty": "",
+  "validation": {
+    "contact": {
+      "email": {
+        "invalid": "Please enter a valid email address."
+      },
+      "phone": {
+        "invalid": "Please enter a valid phone number.",
+        "minLength": "The phone number is too short."
+      }
+    },
+    "passenger": {
+      "firstName": {
+        "max": "First name must be at most 50 characters.",
+        "min": "First name must be at least 2 characters."
+      },
+      "gender": {
+        "required": "Please select a gender."
+      },
+      "idNumber": {
+        "invalid": "Please enter a valid ID number."
+      },
+      "lastName": {
+        "max": "Last name must be at most 50 characters.",
+        "min": "Last name must be at least 2 characters."
+      }
+    },
+    "passengerInfo": {
+      "passengers": {
+        "max": "You can enter at most 5 passengers.",
+        "min": "You must enter at least one passenger."
+      }
+    },
+    "payment": {
+      "acceptTerms": {
+        "required": "You must accept the terms."
+      },
+      "cardName": {
+        "min": "Name on card is too short."
+      },
+      "cardNumber": {
+        "invalid": "Please enter a valid card number.",
+        "minLength": "Card number is too short."
+      },
+      "cvc": {
+        "invalid": "Please enter a valid CVC.",
+        "maxLength": "CVC is too long.",
+        "minLength": "CVC is too short."
+      },
+      "expiry": {
+        "invalid": "Please enter a valid expiry date."
+      }
+    }
+  }
+}

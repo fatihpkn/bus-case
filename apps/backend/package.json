@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "A backend made with Manifest: https://manifest.build",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "dev": "node scripts/dev.js",
+    "seed": "node scripts/seed.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "manifest": "^4.17.13"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.test.js",
+      "**/?(*.)+(spec|test).js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!node_modules/**",
+      "!__tests__/**",
+      "!coverage/**"
+    ]
+  }
+}
